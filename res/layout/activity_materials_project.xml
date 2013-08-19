@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:src="@drawable/matproj" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/main_page_bar">
+
+            <Button
+                style="@style/MainPageButtonText"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/main_page_button"
+                android:onClick="launchMaterialsExplorer"
+                android:text="@string/button_materials_explorer" />
+
+            <Button
+                style="@style/MainPageButtonText"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/main_page_button"
+                android:onClick="launchPhaseDiagram"
+                android:text="@string/button_pdapp" />
+
+            <Button
+                style="@style/MainPageButtonText"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/main_page_button"
+                android:onClick="launchBatteryExplorer"
+                android:text="@string/button_battery_explorer" />
+
+            <Button
+                style="@style/MainPageButtonText"
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/main_page_button"
+                android:onClick="launchReactionCalculator"
+                android:text="@string/button_reaction_calculator" />
+ 
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/latestNewsTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4pt"
+        android:text="@string/title_latest_news"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/rssListView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+    </ListView>
+
+</LinearLayout>

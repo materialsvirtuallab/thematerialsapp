@@ -1,0 +1,60 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.materialsproject.app"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MatProj"
+            android:label="@string/title_activity_materials_project" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MaterialsExplorer"
+            android:label="@string/title_activity_materials_explorer" >
+        </activity>
+        <activity
+            android:name="org.materialsproject.app.DisplayResultsActivity" />
+        <activity
+            android:name="org.materialsproject.app.DisplayBatteryActivity" />
+        <activity
+            android:name=".PhaseDiagram"
+            android:label="@string/title_activity_phase_diagram" >
+        </activity>
+        <activity
+            android:name=".DisplayPhaseDiagramActivity"
+            android:label="@string/title_activity_phase_diagram" >
+        </activity>
+        <activity
+            android:name=".BatteryExplorer"
+            android:label="@string/title_activity_battery_explorer" >
+        </activity>
+        <activity
+            android:name=".ReactionCalculator"
+            android:label="@string/title_activity_reaction_calculator" >
+        </activity>
+        <activity
+            android:name=".DisplayNewsActivity"
+            android:label="@string/title_activity_materials_project" >
+        </activity>
+        <activity
+            android:name=".DisplayAboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>

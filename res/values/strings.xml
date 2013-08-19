@@ -1,0 +1,126 @@
+<resources>
+
+    <string name="app_name">Materials App</string>
+    <string name="edit_message">Formulas e.g., Li2O, Na2O</string>
+    <string name="battery_edit_message">Formula e.g., LiCoO2</string>
+    <string name="button_search">Search</string>
+    <string name="button_phase_diagram">Get Phase Diagram</string>
+    <string name="button_materials_explorer">Materials\nExplorer</string>
+    <string name="button_battery_explorer">Battery\nExplorer</string>
+    <string name="button_reaction_calculator">Reaction\nCalc</string>
+    <string name="button_pdapp">Phase\nDiagrams</string>
+    <string name="button_calc_reaction">Calculate Reaction</string>
+    <string name="menu_about">About</string>
+    <string name="title_activity_phase_diagram">Phase Diagram App</string>
+    <string name="title_activity_materials_explorer">Materials Explorer</string>
+    <string name="title_activity_battery_explorer">Battery Explorer</string>
+    <string name="title_activity_materials_project">The Materials App</string>
+    <string name="title_activity_reaction_calculator">Reaction Calculator</string>
+    <string name="title_activity_about">About the Materials Project App</string>
+    <string name="title_latest_news">Latest News</string>
+    <string name="reactants_message">E.g., Li, O</string>
+    <string name="products_message">E.g., Li2O</string>
+    <string name="hint_phase_diagram">Choose at least 2 elements</string>
+    <string name="pd_image_description">Downloading phase diagram</string>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+    <string name="el_prompt">Choose an element</string>
+
+    <string-array name="el_array">
+        <item>1 - H</item>
+        <item>2 - He</item>
+        <item>3 - Li</item>
+        <item>4 - Be</item>
+        <item>5 - B</item>
+        <item>6 - C</item>
+        <item>7 - N</item>
+        <item>8 - O</item>
+        <item>9 - F</item>
+        <item>10 - Ne</item>
+        <item>11 - Na</item>
+        <item>12 - Mg</item>
+        <item>13 - Al</item>
+        <item>14 - Si</item>
+        <item>15 - P</item>
+        <item>16 - S</item>
+        <item>17 - Cl</item>
+        <item>18 - Ar</item>
+        <item>19 - K</item>
+        <item>20 - Ca</item>
+        <item>21 - Sc</item>
+        <item>22 - Ti</item>
+        <item>23 - V</item>
+        <item>24 - Cr</item>
+        <item>25 - Mn</item>
+        <item>26 - Fe</item>
+        <item>27 - Co</item>
+        <item>28 - Ni</item>
+        <item>29 - Cu</item>
+        <item>30 - Zn</item>
+        <item>31 - Ga</item>
+        <item>32 - Ge</item>
+        <item>33 - As</item>
+        <item>34 - Se</item>
+        <item>35 - Br</item>
+        <item>36 - Kr</item>
+        <item>37 - Rb</item>
+        <item>38 - Sr</item>
+        <item>39 - Y</item>
+        <item>40 - Zr</item>
+        <item>41 - Nb</item>
+        <item>42 - Mo</item>
+        <item>43 - Tc</item>
+        <item>44 - Ru</item>
+        <item>45 - Rh</item>
+        <item>46 - Pd</item>
+        <item>47 - Ag</item>
+        <item>48 - Cd</item>
+        <item>49 - In</item>
+        <item>50 - Sn</item>
+        <item>51 - Sb</item>
+        <item>52 - Te</item>
+        <item>53 - I</item>
+        <item>54 - Xe</item>
+        <item>55 - Cs</item>
+        <item>56 - Ba</item>
+        <item>57 - La</item>
+        <item>58 - Ce</item>
+        <item>59 - Pr</item>
+        <item>60 - Nd</item>
+        <item>61 - Pm</item>
+        <item>62 - Sm</item>
+        <item>63 - Eu</item>
+        <item>64 - Gd</item>
+        <item>65 - Tb</item>
+        <item>66 - Dy</item>
+        <item>67 - Ho</item>
+        <item>68 - Er</item>
+        <item>69 - Tm</item>
+        <item>70 - Yb</item>
+        <item>71 - Lu</item>
+        <item>72 - Hf</item>
+        <item>73 - Ta</item>
+        <item>74 - W</item>
+        <item>75 - Re</item>
+        <item>76 - Os</item>
+        <item>77 - Ir</item>
+        <item>78 - Pt</item>
+        <item>79 - Au</item>
+        <item>80 - Hg</item>
+        <item>81 - Tl</item>
+        <item>82 - Pb</item>
+        <item>83 - Bi</item>
+        <item>84 - Po</item>
+        <item>85 - At</item>
+        <item>86 - Rn</item>
+        <item>87 - Fr</item>
+        <item>88 - Ra</item>
+        <item>89 - Ac</item>
+        <item>90 - Th</item>
+        <item>91 - Pa</item>
+        <item>92 - U</item>
+    </string-array>
+
+</resources>

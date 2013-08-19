@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="2dip">
+	
+    <TextView
+   		android:id="@+id/pdTitle"
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		style="@style/TitleText"/>
+    
+    <TextView
+   		android:id="@+id/pdMessage"
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		style="@style/RunningTaskText"
+   		/>
+    
+    <ImageView
+        android:id="@+id/pdImage"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:contentDescription="@string/pd_image_description"/>
+
+</LinearLayout>
